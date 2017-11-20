@@ -20,7 +20,7 @@
         <td><%= subscriber.phone_number %></td>
         <td><%= link_to 'Show', subscriber %></td>
         <td><%= link_to 'Edit', edit_subscriber_path(subscriber) %></td>
-        <td><%= link_to 'Destroy', subscriber, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Delete', subscriber, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +28,4 @@
 
 <br>
 
-<%= link_to 'New Subscriber', new_subscriber_path %>
+<%= link_to 'Add Subscriber', new_subscriber_path %>
