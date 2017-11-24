@@ -1,24 +1,20 @@
-# README
+# Giphy + Twilio mashup for sending .gif's via MMS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting started
+First, you'll need a [free Giphy API key](https://developers.giphy.com/dashboard/?create=true).
+You'll need to create a free account, if you don't already have one.
 
-Things you may want to cover:
+Second, you'll need a [free Twilio account](https://www.twilio.com/sms) with a phone number.
 
-* Ruby version
+To get started with the app, clone the repo and then install the needed gems:
+```
+$ bundle install
+```
 
-* System dependencies
+Next, migrate the database:
+```
+$ rails db:migrate
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is deployed to a [free Heroku instance](https://www.heroku.com/free) with the
+free [Heroko Postgress Add-on](https://elements.heroku.com/addons/heroku-postgresql).
