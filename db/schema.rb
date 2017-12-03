@@ -12,9 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20171119233727) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "subscribers", force: :cascade do |t|
     t.string "last_name"
     t.string "first_name"
