@@ -1,4 +1,6 @@
-# Giphy + Twilio mashup for sending .gif's via MMS
+# THIS REPOSITORY IS NO LONGER ACTIVE
+------------------------------------------
+## Giphy + Twilio mashup for sending .gif's via MMS
 
 ## Getting started
 First, you'll need a [free Giphy API key](https://developers.giphy.com/dashboard/?create=true).
